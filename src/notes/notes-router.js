@@ -44,7 +44,7 @@ notesRouter
       note_id
     )
       .then(() => {
-        res.status(204).end();
+        res.json('hello');
       });
   });
 module.exports = notesRouter;
